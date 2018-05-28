@@ -1,0 +1,17 @@
+def money_calc(x, y, z):
+    ## y initial value, z change in value
+    total = 0
+    if x == "+":
+        total = y + z
+    elif x == "-":
+        total += y - z
+    elif x == "*":
+        total += y * z
+    elif x == "/":
+        total = y % z
+    else:
+        print ("Something went wrong dont judge pls :(")
+    print (total)
+
+
+money_calc("/", 120, 50)
