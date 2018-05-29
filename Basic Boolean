@@ -1,0 +1,7 @@
+sentence = "Im dying because of death"
+word = "death"
+
+if word in sentence:
+    print ("True dude, its hella hot here")
+else:
+    print ("Nah its actualy cold, you just a bitch")
